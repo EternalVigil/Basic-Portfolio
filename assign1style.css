@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.mainblock{
+		width:100%;
+		height:auto;
+		border:dashed 2px black;
+	}
+	h1,h2{
+		text-align: center;
+		
+	}
+	h1{
+		background-color: black;
+		color: white;
+	}
+	.imgblock{
+		clear: both;
+		height:100%;
+		max-height:275px;
+		width:auto;
+		display: block;
+		float: left;
+		border: dashed 2px red;
+		overflow: hidden;
+	}
+	.txtblock{
+		display: table-cell;
+		height: 275px;
+		border:dashed 2px green;
+		overflow: scroll;
+		text-align: left;
+		vertical-align: middle;
+		padding: 0 20px;
+	}
+	.lowerblock{
+		clear: both;
+		height:auto;
+		float:float;
+		border:dashed 2px blue;
+	}
+	ul{
+		display:block;
+		text-align: center;
+	}
+	li{
+		margin: 0 5px;
+		display: inline-block;
+	}
