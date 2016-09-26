@@ -1,0 +1,66 @@
+@charset "utf-8";
+.header{
+	border:dashed 2px blue;
+	width: 100%;
+	height: 50px;
+}
+.Title{
+	border: dashed 2px orange;
+	float: left;
+	width: 50%;
+	height: 50px;
+	text-align:center;
+	vertical-align: middle;
+	margin:auto;
+	padding:auto;
+	line-height:50px;
+
+}.NavMenu{
+	border: dashed 2px green;
+	height:50px;
+	float: left;
+}
+.mainblock{
+	clear: both;
+	float: left;
+	width: 50%;
+	height: 400px;
+	
+}
+#profilepic{
+	float: left;
+	display: inline-block;
+}
+.ContactLinks{
+	float: left;
+	width: auto;
+	border: dashed 2px purple;
+	height: 300px;
+}
+.ContactLinks h3{
+	text-align: center;
+}
+.ContactLinks ul{
+	list-style-type: none;
+	width: 100%;
+	margin: auto;
+}
+.ContactLinks li{
+	float:left;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+}
+.footer{
+	clear: both;
+	border: dashed 2px red;
+	height:50px;
+	text-align: center;
+}
+.NavMenu ul{
+	list-style: none;
+}
+.NavMenu li{
+	float: left;
+	margin: 0 10px;
+}
