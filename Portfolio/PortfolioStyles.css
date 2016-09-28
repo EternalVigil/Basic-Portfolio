@@ -1,5 +1,5 @@
 @charset "utf-8";
-body {
+.container {
 	background-color: lightblue;
 }
 .header {
@@ -43,7 +43,7 @@ body {
 	margin: 0 25px;
 	background-color: white;	
 }
-.mainblock h2 {
+.maintitle {
 	color: teal;
 	width: 100%;
 	border-bottom: solid 2px gray;
@@ -62,18 +62,18 @@ body {
 	background-color: white;
 	margin-top: 0px;
 }
-.ContactLinks h3 {
+.contacttitle {
 	text-align: center;
 	width: 100%;
 	line-height: 24px;
 	border-bottom: solid 2px gray;
 }
-.ContactLinks ul {
+.ContactLinks-ul {
 	list-style-type: none;
 	width: 100%;
 	margin: auto;
 }
-.ContactLinks li {
+.ContactLinks-li {
 	float: left;
 	display: inline-block;
 	width: 150px;
@@ -93,10 +93,10 @@ body {
 	text-align: center;
 	line-height:50px;
 }
-.NavMenu ul {
+.NavMenu-ul {
 	list-style: none;
 }
-.NavMenu li {
+.NavMenu-li {
 	float: left;
 	margin: 0 10px;
 }
