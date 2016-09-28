@@ -1,4 +1,7 @@
 @charset "utf-8";
+body {
+	background-color: lightblue;
+}
 .header {
 	border: dashed 2px blue;
 	width: 100%;
@@ -34,9 +37,11 @@
 .mainblock {
 	clear: both;
 	float: left;
-	width: 50%;
+	width: 600px;
 	height: auto;
-	padding: 0 25px;
+	padding: 0 5px;
+	margin: 0 25px;
+	background-color: white;	
 }
 .mainblock h2 {
 	color: teal;
