@@ -1,93 +1,97 @@
 @charset "utf-8";
-.header{
-	border:dashed 2px blue;
+.header {
+	border: dashed 2px blue;
 	width: 100%;
 	height: 60px;
 }
-.Title{
+.Title {
 	border: dashed 2px orange;
 	float: left;
 	width: 50%;
-	text-align:center;
-	margin:auto;
-	padding:auto;
-	line-height:60px;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	line-height: 60px;
 }
-#Name{
+#Name {
 	display: inline-block;
 	float: left;
 	width: auto;
 	text-align: center;
-	vertical-align:middle;
+	vertical-align: middle;
 	background-color: teal;
-	margin-left: 25%;
+	margin-left: 20%;
 	border: dotted 2px red;
-	font-size: 32px;
-	height:60px;
+	font-size: 28px;
 	color: white;
 	font-weight: bolder;
 }
-.NavMenu{
+.NavMenu {
 	border: dashed 2px green;
-	height:60px;
+	height: 60px;
 	float: left;
 }
-.mainblock{
+.mainblock {
 	clear: both;
 	float: left;
 	width: 50%;
-	height: auto;	
+	height: auto;
 	padding: 0 25px;
 }
-.mainblock h2{
+.mainblock h2 {
 	color: teal;
-	text-decoration: underline;
+	width: 100%;
+	border-bottom: solid 2px gray;
 }
-#profilepic{
+#profilepic {
 	float: left;
 	display: inline-block;
 	height: 150px;
 	width: auto;
 }
-.ContactLinks{
+.ContactLinks {
 	float: left;
 	width: auto;
 	border: dashed 2px purple;
 	height: auto;
 	background-color: white;
-	margin-top:10px;
+	margin-top: 0px;
 }
-.ContactLinks h3{
+.ContactLinks h3 {
 	text-align: center;
+	width: 100%;
+	line-height: 24px;
+	border-bottom: solid 2px gray;
 }
-.ContactLinks ul{
+.ContactLinks ul {
 	list-style-type: none;
 	width: 100%;
 	margin: auto;
 }
-.ContactLinks li{
-	float:left;
+.ContactLinks li {
+	float: left;
 	display: inline-block;
 	width: 150px;
 	height: 150px;
 }
-.ContactLinks img{
+.ContactLinks img {
 	height: 100px;
 	width: 100px;
 }
-.ContactLinks h3{
+.ContactLinks h3 {
 	color: teal;
 }
-.footer{
+.footer {
 	clear: both;
 	border: dashed 2px red;
-	height:50px;
+	height: 50px;
 	text-align: center;
+	line-height:50px;
 }
-.NavMenu ul{
+.NavMenu ul {
 	list-style: none;
 }
-.NavMenu li{
+.NavMenu li {
 	float: left;
 	margin: 0 10px;
 }
