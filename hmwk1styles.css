@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.navmenu{
+	border: dashed 2px red;
+	height: 50px;
+}
+#Title{
+	border: dashed 2px blue;
+	float: left;
+	display: block;
+	width: 50%;
+	font-size: 32px;
+	padding-left: 15%;
+	overflow: auto;
+}
+#nav{
+	border: dashed 2px green;
+	float: left;
+	width: auto;
+	vertical-align: middle;
+	display: table-cell;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+li{
+	float:left;
+	margin: 0 25px;
+}
+mainbox{
+	
+}
+
+footer{
+	
+}

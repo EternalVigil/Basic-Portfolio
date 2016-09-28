@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.floatghost{
+	position: fixed;
+	height: 200px;
+	width: 200px;
+	background-image:url("http://ih1.redbubble.net/image.67519519.4288/flat,800x800,075,f.u1.jpg");
+	background-size: 100%;
+	
+}
+.skellydoot{
+	position: relative;
+	left: 500px;
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+	background-image:url("https://i.ytimg.com/vi/kmqOV4JkRcs/hqdefault.jpg");
+}
+#skelly{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	left: 85px;
+	top: 150px;
+	color: white;
+	font-size:32px;
+}
