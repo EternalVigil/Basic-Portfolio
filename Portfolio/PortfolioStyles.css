@@ -94,9 +94,30 @@
 	line-height:50px;
 }
 .NavMenu-ul {
-	list-style: none;
+	list-style-type: none;
 }
 .NavMenu-li {
 	float: left;
-	margin: 0 10px;
+	margin: 5px 10px;
+	height: 20px;
+}
+#middlecell{
+	border-right: solid 1px gray;
+	border-left: solid 1px gray;
+	padding: 0 10px;
+	margin: 5px 10px;
+}
+.portitems{
+	list-style-type: none;
+}
+.portitem{
+	float: left;
+	height: 250px;
+	width: 200px;
+	text-align: center;
+}
+.portitem-img{
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
 }
