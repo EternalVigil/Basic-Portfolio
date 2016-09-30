@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+#p1, #p3, #p5 {
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+#p2, #p4 {
+	font-family: 'Yatra One', cursive;
+	font-size: 24;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+#p1::first-letter, #p3::first-line, #p5::selection {
+	color: red;
+	font-size: 36px;
+	font-weight: 900;
+}
+#p4:hover {
+	background-color: blue;
+	color: orange;
+}
+#p2:active {
+	opacity: 0.5;
+}
